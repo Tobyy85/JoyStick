@@ -4,7 +4,7 @@
 #include "Arduino.h"
 
 class JoyStick{
-
+ 
 
 public:
     JoyStick(int x_pin, int y_pin, int SW_pin, int normal_x = 512, int normal_y = 512, int deadzone_x = 10, int deadzone_y = 10);
